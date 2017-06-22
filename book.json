@@ -1,0 +1,123 @@
+{
+    "title": "Mathematica 入门引导",
+    "description": "《Mathematica 入门引导》 —— 献给初学者的中文读本",
+    "author": "李宣",
+    "language": "zh-hans",
+    "root": "./docs",
+    "structure": {
+        "readme": "README.md"
+    },
+    "styles": {
+        "website": "./styles/website.css",
+        "ebook": "./styles/ebook.css",
+        "pdf": "./styles/pdf.css",
+        "mobi": "./styles/mobi.css",
+        "epub": "./styles/epub.css"
+    },
+    "plugins": [
+        "-lunr",
+        "-search",
+        "-highlight",
+        "-livereload",
+        "search-plus",
+        "github",
+        "github-buttons",
+        "edit-link",
+        "changyan",
+        "prism",
+        "prism-themes",
+        "advanced-emoji",
+        "anchors",
+        "include-codeblock",
+        "ace",
+        "emphasize",
+        "mathjax",
+        "-splitter",
+        "mermaid",
+        "tbfed-pagefooter",
+        "expandable-chapters-small",
+        "sectionx",
+        "sitemap-general",
+        "anchor-navigation-ex",
+        "favicon",
+        "3-ba"
+    ],
+    "pluginsConfig": {
+        "theme-default": {
+            "showLevel": true
+        },
+        "changyan": {
+            "appid": "cysWoUDnf"
+        },
+        "mathjax": {
+            "forceSVG": true
+        },
+        "prism": {
+            "css": [
+                "prismjs/themes/prism-mma.css"
+            ]
+        },
+        "github": {
+            "url": "https://github.com/SqRoots/Mathematica-for-Beginner"
+        },
+        "github-buttons": {
+            "repo": "SqRoots/Mathematica-for-Beginner",
+            "types": [
+                "star"
+            ],
+            "size": "small"
+        },
+        "include-codeblock": {
+            "template": "ace",
+            "unindent": true,
+            "edit": true
+        },
+        "sharing": {
+            "weibo": true,
+            "facebook": true,
+            "twitter": true,
+            "google": true,
+            "instapaper": false,
+            "vk": false,
+            "all": [
+                "facebook",
+                "google",
+                "twitter",
+                "weibo",
+                "instapaper"
+            ]
+        },
+        "edit-link": {
+            "base": "https://github.com/SqRoots/Mathematica-for-Beginner/tree/master/docs/",
+            "label": "编辑此页"
+        },
+        "sitemap-general": {
+            "prefix": "https://mmaqa.com/notes/mathematica-for-beginner/"
+        },
+
+        "sectionx": {
+            "tag": "b"
+        },
+        "anchor-navigation-ex": {
+            "showLevel": false,
+            "float": {
+                "showLevelIcon": true,
+                "level1Icon": "fa fa-hand-o-right",
+                "level2Icon": "fa fa-hand-o-right",
+                "level3Icon": "fa fa-hand-o-right"
+            }
+        },
+        "favicon": {
+            "shortcut": "favicon.ico",
+            "bookmark": "favicon.ico"
+        },
+        "tbfed-pagefooter": {
+            "copyright": "Copyright © mmaqa.com 2016 ~ 2017",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "3-ba": {
+            "token": "365d85b12bdba3b826c6d6c3f6defe4f"
+        }
+    }
+}

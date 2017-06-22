@@ -1,0 +1,179 @@
+/* 左侧导航条 */
+.book.color-theme-2 .book-summary ul.summary li a, .book.color-theme-2 .book-summary ul.summary li span{
+  font-weight: normal;
+}
+.book.color-theme-2 .book-summary ul.summary li.active > a, .book.color-theme-2 .book-summary ul.summary li a:hover{
+  font-weight: normal;
+}
+
+/* 标题1 */
+
+h1 {
+    text-align: center;
+}
+
+
+/* 标题2 */
+
+h2 {
+    border-left: 10px solid #337;
+    border-bottom: 3px double #337;
+    padding-left: 10px;
+}
+
+h2::before {
+    content: '※ '
+}
+
+
+/* 标题3 */
+
+h3 {
+    border-left: 7px solid #556;
+    border-bottom: 1px solid #556;
+    padding-left: 7px;
+}
+
+h3::before {
+    content: '§ '
+}
+
+/* 链接颜色 */
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a{
+  color: #4183c4;
+}
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a{
+  color: #3eb1d0;
+}
+/* 折叠面板 标题 */
+
+.panel-default>.panel-heading {
+    background: #ddd;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+}
+
+
+/* 折叠面板 标题前缀 */
+
+.panel-default>.panel-heading>b:before {
+  content: '>> ';
+}
+
+
+/* 折叠面板 展开按钮 */
+
+.panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  color: #fff;
+  position: absolute;
+  margin-top: -27px;
+  left: 23px;
+  padding: 6px 9px;
+}
+
+/* 水平分隔线： --- */
+
+.markdown-section hr {
+    height: 1px;
+    background-color: #b7b8d0;
+    box-shadow: 1px 1px #aaa;
+}
+
+
+/* 引用内容背景颜色 */
+
+.markdown-section blockquote {
+    background: rgba(100, 100, 100, 0.1);
+    border-left: 4px solid #afafaf;
+}
+
+.markdown-section blockquote p {
+    color: #676767;
+}
+
+
+/* 行内代码 背景色 */
+
+.markdown-section code {
+    color: #333;
+    background-color: rgba(142, 142, 142, 0.43);
+    border-color: #292721;
+}
+
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal pre, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal code {
+    color: #06005a;
+    background: #d5c8a5;
+    border-color: #292721;
+}
+
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal pre, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal code {
+    color: #9dbed8;
+    background: #262b3c;
+    border-color: #2d3143;
+}
+
+/* 折叠面板 内容 */
+
+div.panel.panel-default div.panel-body {
+    padding: 0 6px;
+    background: #eee;
+    /*border-left: 1px solid rgba(100, 100, 100, 0.5);
+    border-right: 1px solid rgba(100, 100, 100, 0.5);
+    border-bottom: 1px solid rgba(100, 100, 100, 0.5);*/
+}
+.book.color-theme-1 div.panel.panel-default div.panel-body {
+    background: #d5c8a5;
+}
+.book.color-theme-2 div.panel.panel-default div.panel-body {
+    background: #262b3c;
+}
+/* 折叠面板 工具条 */
+.book.color-theme-2 .panel-heading {
+    background-color: rgba(40, 89, 158, 0.31);
+}
+
+.book.color-theme-2 .panel-default>.panel-heading {
+    color: #849aef;
+}
+
+.book.color-theme-2 .panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default {
+    background: rgba(151, 124, 212, 0.33);
+    color: #a7bbd0;
+}
+
+.book.color-theme-1 .panel-default>.panel-heading{
+  background: rgba(193, 180, 134, 0.8);
+  border: 1px solid rgba(117, 110, 86, 0.49);
+  color: #42360c;
+}
+
+
+.book.color-theme-1 .panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default{
+  background: rgba(140, 127, 80, 0.88);
+  color: #f3eacb;
+}
+
+/* 标题，三级标题上下间距 */
+
+.book-summary ul.summary li ul.articles li a {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.book-summary ul.summary li a, .book-summary ul.summary li span {
+    padding: 7px 15px;
+}
+
+.book-summary ul.summary li.header {
+    padding-top: 7px;
+}
+
+
+/* Glossary 样式 */
+
+.markdown-section .glossary-term {
+    color: #000;
+    padding: 0 4px;
+    border-radius: 3px;
+}
