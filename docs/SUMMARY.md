@@ -9,14 +9,14 @@
 
 
 ## 2. 从这里开始
-* [如何开始](./02-begin-from-here/01-how-to-begin.md)
-* [语言特点](./02-begin-from-here/02-the-features-of-wolfram-language.md)
-* [数据类型](./02-begin-from-here/03-the-type-of-data.md)
-* [运算符](./02-begin-from-here/04-operators.md)
-* [条件语句](./02-begin-from-here/05-conditional-statement.md)
-* [循环语句](./02-begin-from-here/06-loop-statement.md)
-* [定义函数](./02-begin-from-here/07-define-a-function.md)
-* [编写程序包](./02-begin-from-here/08-write-a-package.md)
+* [如何开始](./02-learn-guide/01-how-to-begin.md)
+* [语言特点](./02-learn-guide/02-the-features-of-wolfram-language.md)
+* [数据类型](./02-learn-guide/03-the-type-of-data.md)
+* [运算符](./02-learn-guide/04-operators.md)
+* [条件语句](./02-learn-guide/05-conditional-statement.md)
+* [循环语句](./02-learn-guide/06-loop-statement.md)
+* [定义函数](./02-learn-guide/07-define-a-function.md)
+* [编写程序包](./02-learn-guide/08-write-a-package.md)
 
 
 ## 3. 专题
