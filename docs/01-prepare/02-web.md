@@ -26,5 +26,24 @@
 
 
 ## 优质社区
+* [英文：官方社区](http://community.wolfram.com)
+* [英文：Stack Exchange](https://mathematica.stackexchange.com/)
 * [中文：Mathematica 问答社区](https://mmaqa.com)
 * [中文：Mathematica 百度贴吧](http://tieba.baidu.com/f?kw=mathematica&fr=index&red_tag=v0646362961)
+
+
+## QQ群
+* 464254638 [加入](https://shang.qq.com/wpa/qunwpa?idkey=40cb09e0503e7ebfb7153d75e436ecb8721e4489d0eb4fa4271c9020c1e611ce)（Mathematica-Wolfram 学习营）
+* 365716997 [加入](http://shang.qq.com/wpa/qunwpa?idkey=86943159f88b51019eea9b83e124787acc5fd7344e05265fe5374a2cefb13988)（Mathematica 问答社区）
+* 124272507 （Mathematica 智囊团）
+
+
+## 微信公众号——遇见 • 更有趣的数学
+
+> 将数学与Wolfram语言相结合，分享好玩、生动、有趣的数学知识和故事；
+>
+> 利用Wolfram技术让你更快速、清晰理解数学的概念、定理和公式；
+>
+> 用动态精美的可视化图形，让枯燥的知识变得通俗易懂，为你展现一个有趣，丰富多彩的数学世界，唤起对数学的兴趣。
+
+![](./imgs/WeiXin-MeetMath.png)
