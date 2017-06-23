@@ -45,32 +45,7 @@ h3::before {
 .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal a{
   color: #3eb1d0;
 }
-/* 折叠面板 标题 */
 
-.panel-default>.panel-heading {
-    background: #ddd;
-    border: 1px solid rgba(100, 100, 100, 0.5);
-}
-
-
-/* 折叠面板 标题前缀 */
-
-.panel-default>.panel-heading>b:before {
-  content: '>> ';
-}
-
-
-/* 折叠面板 展开按钮 */
-
-.panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default {
-  background-color: #5bc0de;
-  border-color: #46b8da;
-  color: #fff;
-  position: absolute;
-  margin-top: -27px;
-  left: 23px;
-  padding: 6px 9px;
-}
 
 /* 水平分隔线： --- */
 
@@ -93,34 +68,63 @@ h3::before {
 }
 
 
-/* 行内代码 背景色 */
-
+/* 代码 */
+:not(pre) > code[class*="language-"], pre[class*="language-"]{
+  background-color: rgba(142, 142, 142, 0.2);
+  border-color: #292721;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
 .markdown-section code {
     color: #333;
-    background-color: rgba(142, 142, 142, 0.43);
-    border-color: #292721;
+    background-color: rgba(142, 142, 142, 0.2);
+    text-shadow: none;
+    box-shadow: none;
 }
-
-.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal pre, .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal code {
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal pre{
+  background: #d5c8a5;
+  border-color: #b5a575;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.book.color-theme-1 .book-body .page-wrapper .page-inner section.normal code {
     color: #06005a;
     background: #d5c8a5;
-    border-color: #292721;
+    text-shadow: none;
+    box-shadow: none;
 }
 
-.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal pre, .book.color-theme-2 .book-body .page-wrapper .page-inner section.normal code {
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal pre{
+  background: #262b3c;
+  border-color: #343a54;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+}
+.book.color-theme-2 .book-body .page-wrapper .page-inner section.normal code {
     color: #9dbed8;
     background: #262b3c;
-    border-color: #2d3143;
+    text-shadow: none;
+    box-shadow: none;
 }
+
+
+/* 折叠面板 标题 */
+
+.panel-default>.panel-heading {
+    background: #ddd;
+    border: 1px solid rgba(100, 100, 100, 0.5);
+}
+
+
+/* 折叠面板 标题前缀 */
+
+.panel-default>.panel-heading>b:before {
+  content: '>> ';
+}
+
 
 /* 折叠面板 内容 */
 
 div.panel.panel-default div.panel-body {
     padding: 0 6px;
     background: #eee;
-    /*border-left: 1px solid rgba(100, 100, 100, 0.5);
-    border-right: 1px solid rgba(100, 100, 100, 0.5);
-    border-bottom: 1px solid rgba(100, 100, 100, 0.5);*/
 }
 .book.color-theme-1 div.panel.panel-default div.panel-body {
     background: #d5c8a5;
@@ -136,23 +140,33 @@ div.panel.panel-default div.panel-body {
 .book.color-theme-2 .panel-default>.panel-heading {
     color: #849aef;
 }
-
-.book.color-theme-2 .panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default {
-    background: rgba(151, 124, 212, 0.33);
-    color: #a7bbd0;
-}
-
 .book.color-theme-1 .panel-default>.panel-heading{
   background: rgba(193, 180, 134, 0.8);
   border: 1px solid rgba(117, 110, 86, 0.49);
   color: #42360c;
 }
-
-
-.book.color-theme-1 .panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default{
-  background: rgba(140, 127, 80, 0.88);
-  color: #f3eacb;
+/* 折叠面板 展开按钮 */
+.panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default {
+  background-color: #5bc0de;
+  border-color: #46b8da;
+  color: #fff;
+  position: absolute;
+  margin-top: -27px;
+  left: 23px;
+  padding: 6px 9px;
 }
+.book.color-theme-1 .panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default{
+  background: #8c7f50;
+  color: #e0d8bb;
+  border-color: #6b613c;
+}
+.book.color-theme-2 .panel-default>.panel-heading>b>a.pull-right.section.atTitle.btn.btn-default {
+    background: #131215;
+    color: #59738e;
+    border-color: #3d4465;
+}
+
+
 
 /* 标题，三级标题上下间距 */
 
