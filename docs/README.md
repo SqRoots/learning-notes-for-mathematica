@@ -3,11 +3,10 @@
 
 ---
 
-* **创建日期**： 2017-04-01
-* **更新日期**： {{gitbook.time}}
-* **作者列表**： [李宣](http://laoli.cm) | 期待您的加入...
-* **适用读者**： 老少皆宜，童叟无欺。特别适合初识 Mathematica 软件的朋友。
-* **阅读地址**：[mmaqa.com/notes/learn/](https://mmaqa.com/notes/learn/)
+* **适用读者**：老少皆宜。特别适合初识 Mathematica 软件的朋友。
+* **阅读地址**：[MmaQA.com/notes/learn/](https://mmaqa.com/notes/learn/)
+* **创建日期**：2017-04-01
+* **更新日期**：2017-06-26 10:02:54 UTC/GMT +8
 
 ---
 
@@ -26,7 +25,5 @@
 ---
 
 ## 关于
-
-> * 我们的社区：[Mathematica 问答社区](https://mmaqa.com)
-> * [在 github 上编辑本书](https://github.com/SqRoots/Mathematica-for-Beginner)
-> * [在 gitbook 上编辑本书](https://www.gitbook.com/book/sqroots/mathematica-for-beginner)
+> * **作者主页**：[李宣](http://laoli.cm)
+> * **交流平台**：[Mathematica 问答社区](https://mmaqa.com)

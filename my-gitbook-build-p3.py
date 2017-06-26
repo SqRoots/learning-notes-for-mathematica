@@ -3,17 +3,21 @@
 
 import re
 import os
+import time
+import shutil
 current_path = os.path.dirname(os.path.realpath(__file__))
 
 
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 1 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
-# 替换 Markdown 中的转义字符
+# 替换 Markdown 中的转义字符 + 更新时间格式
 # 主要是为了处理数学公式中的特殊字符
 def replace_escaped_characters(path):
     with open(path, 'r', encoding="utf8") as f:
         md_str = f.read()
+    # 更新时间
+    md_str = md_str.replace('{python3{gitbook.time}}', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + ' UTC/GMT +8')
     # 处理 {% raw %}--{% endraw %} 或 {% math %}--{% endmath %}
     md_str_raws = re.findall(r'\{\%\s*raw\s*\%\}(.+?)\{\%\s*endraw\s*\%\}', md_str, flags=re.I|re.M|re.S)
     k = 1
@@ -38,6 +42,10 @@ for (path, sub_paths, file_names) in os.walk(my_path):
         if f[-5:] == '-o.md':
             replace_escaped_characters(os.path.join(path, f))
 
+# 替换根目录下的 README.md
+if os.path.exists(os.path.join(current_path, 'README.md')):
+    os.remove(os.path.join(current_path, 'README.md'))
+shutil.copyfile(os.path.join(my_path, 'README.md'), os.path.join(current_path, 'README.md'))
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■ 2 ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
 # ■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
