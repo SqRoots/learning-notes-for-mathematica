@@ -17,7 +17,7 @@ def replace_escaped_characters(path):
     with open(path, 'r', encoding="utf8") as f:
         md_str = f.read()
     # 更新时间
-    md_str = md_str.replace('{python3{gitbook.time}}', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + ' UTC/GMT +8')
+    md_str = md_str.replace('{{gitbook.time}}', time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + ' UTC+8')
     # 处理 {% raw %}--{% endraw %} 或 {% math %}--{% endmath %}
     md_str_raws = re.findall(r'\{\%\s*raw\s*\%\}(.+?)\{\%\s*endraw\s*\%\}', md_str, flags=re.I|re.M|re.S)
     k = 1

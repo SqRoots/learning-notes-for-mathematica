@@ -6,7 +6,7 @@
 * **适用读者**：老少皆宜。特别适合初识 Mathematica 软件的朋友。
 * **阅读地址**：[MmaQA.com/notes/learn/](https://mmaqa.com/notes/learn/)
 * **创建日期**：2017-04-01
-* **更新日期**：{python3{gitbook.time}}
+* **更新日期**：{{gitbook.time}}
 
 ---
 

@@ -3,9 +3,8 @@
 
 ## 1. 准备
 * [介绍](./README.md)
-* [下载 &#38; 购买](./01-prepare/01-software-download-and-purchase.md)
-* [相关网站](./01-prepare/02-web.md)
-* [学习资源](./01-prepare/03-source.md)
+* [下载 &#38; 购买](./01-prepare/02-software-download-and-purchase.md)
+* [网站 &#38; 资源](./01-prepare/03-web-and-resource.md)
 
 
 ## 2. 从这里开始

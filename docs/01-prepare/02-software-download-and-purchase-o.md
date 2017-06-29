@@ -9,4 +9,4 @@
 
 ## 购买渠道
 * [**官网购买**](http://www.wolfram.com/mathematica/pricing/)
-* [我要出现在这里](mailto:lixuan159@gmail.com?cc=fanxingyoumeng@163.com&amp;subject=来自主页访客的邮件&amp;body=%0a--%0a请在这儿留下您的个人信息及联系方式%20^_^%20 "向我发邮件要求添加您的链接")
+* [**广告位**：我要出现在这里，点此给我发邮件&#62;&#62;](mailto:lixuan159@gmail.com?cc=fanxingyoumeng@163.com&amp;subject=来自主页访客的邮件&amp;body=%0a--%0a请在这儿留下您的个人信息及联系方式%20^_^%20 "向我发邮件要求添加您的链接")
