@@ -5,6 +5,12 @@
 .book.color-theme-2 .book-summary ul.summary li.active > a, .book.color-theme-2 .book-summary ul.summary li a:hover{
   font-weight: normal;
 }
+/* 图像 */
+.markdown-section img{
+  display: block;
+  margin: 10px auto;
+}
+
 
 /* 标题1 */
 
