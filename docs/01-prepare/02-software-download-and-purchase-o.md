@@ -5,7 +5,7 @@
 
 ## 下载渠道
 * [**官网下载**（试用版）](http://www.wolfram.com/mathematica/pricing/)
-* [**网盘下载**（由百度贴吧网友提供的软件下载与安装说明。银子不足就看这个吧，但要做好有病毒的准备）](https://tiebamma.github.io/InstallTutorial/)
+* [**网盘下载**（软件下载与安装说明，做好防毒准备。与本站无关。）](https://tiebamma.github.io/InstallTutorial/)
 
 ## 购买渠道
 * [**官网购买**](http://www.wolfram.com/mathematica/pricing/)
