@@ -1,8 +1,8 @@
 
 # Summary
-## 0. [回到社区](https://mmaqa.com)
 
 ## 1. 准备
+* [返回社区](https://mmaqa.com)
 * [介绍](./README.md)
 * [下载 &#38; 购买](./01-prepare/02-software-download-and-purchase.md)
 * [网站 &#38; 资源](./01-prepare/03-web-and-resource.md)
