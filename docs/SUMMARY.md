@@ -20,11 +20,12 @@
 
 
 ## 3. 专题
-* [导入导出](./03-faq/01-import-and-export/00-readme.md)
-  * [数据的导入导出](./03-faq/01-import-and-export/01-import-and-export-data.md)
-  * [图像的导入导出](./03-faq/01-import-and-export/02-import-and-export-picture.md)
-  * [音频的导入导出](./03-faq/01-import-and-export/03-import-and-export-audio.md)
-* [设置笔记本](./03-faq/02-setup-notebook/00-readme.md)
+* [设置笔记本](./03-topic/01-setup-notebook/01-setup-notebook.md)
+* [导入导出](./03-topic/02-import-and-export/00-readme.md)
+  * [数据的导入导出](./03-topic/02-import-and-export/01-import-and-export-data.md)
+  * [图像的导入导出](./03-topic/02-import-and-export/02-import-and-export-picture.md)
+  * [音频的导入导出](./03-topic/02-import-and-export/03-import-and-export-audio.md)
+* [收发邮件](./03-topic/03-send-and-receive-mail/01-send-and-receive-mail.md)
 
 
 ---
