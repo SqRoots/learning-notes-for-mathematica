@@ -22,7 +22,7 @@ h1 {
 /* 标题2 */
 
 h2 {
-    border-left: 10px solid #337;
+    /*border-left: 10px solid #337;*/
     border-bottom: 3px double #337;
     padding-left: 10px;
 }
@@ -35,7 +35,7 @@ h2::before {
 /* 标题3 */
 
 h3 {
-    border-left: 7px solid #556;
+    /*border-left: 7px solid #556;*/
     border-bottom: 1px solid #556;
     padding-left: 7px;
 }
