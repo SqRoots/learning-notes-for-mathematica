@@ -25,12 +25,18 @@
 以**管理员身份**启动 Mathematica，然后运行下面的代码即可修正之：
 
 ```mma{% raw %}
-
-path = $InstallationDirectory <> "/SystemFiles/FrontEnd/TextResources/MathematicaClosingDialog.nb";
-If[! FileExistsQ[path <> ".bk"], CopyFile[path, path <> ".bk"]];(*备份*)
-nb = Import[path] // NotebookPut;
-SetOptions[nb, {WindowSize -> {600, All}, WindowElements -> {"MenuBar"}}];
+(*==需要以管理员身份运行==*)
+(*退出对话框路径*)
+path = $InstallationDirectory <>
+   "/SystemFiles/FrontEnd/TextResources/MathematicaClosingDialog.nb";
+(*备份*)
+If[! FileExistsQ[path <> ".bk"], CopyFile[path, path <> ".bk"]];
+(*导入*)
+nb = NotebookPut[Import[path]];
+(*修改窗口尺寸*)
+SetOptions[
+  nb, {WindowSize -> {600, All}, WindowElements -> {"MenuBar"}}];
+(*保存*)
 Export[path, nb];
-
 {% endraw %}
 ```
