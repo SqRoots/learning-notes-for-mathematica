@@ -27,9 +27,9 @@ h2 {
     padding-left: 10px;
 }
 
-h2::before {
+/*h2::before {
     content: '※ '
-}
+}*/
 
 
 /* 标题3 */
@@ -40,9 +40,9 @@ h3 {
     padding-left: 7px;
 }
 
-h3::before {
+/*h3::before {
     content: '§ '
-}
+}*/
 
 /* 链接颜色 */
 .book.color-theme-1 .book-body .page-wrapper .page-inner section.normal a{
