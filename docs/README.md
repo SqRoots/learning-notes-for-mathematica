@@ -15,9 +15,9 @@
 ---
 
 * **适用读者**：老少皆宜。特别适合初识 Mathematica 软件的朋友。
-* **阅读地址**：[mmaqa.com/note/](https://mmaqa.com/note/)
+* **阅读地址**：[lixuan.xyz/notes/mathematica](https://lixuan.xyz/notes/mathematica/)
 * **创建日期**：2017-04-01
-* **更新日期**：2017-11-21 23:15:31 UTC+8
+* **更新日期**：2018-09-23 00:13:11 UTC+8
 
 ---
 
@@ -42,5 +42,5 @@
 ---
 
 ## 关于
-> * **作者主页**：[李宣](http://laoli.cm)
+> * **作者主页**：[李宣](https://lixuan.xyz)
 > * **交流平台**：[Mathematica 问答社区](https://mmaqa.com)
